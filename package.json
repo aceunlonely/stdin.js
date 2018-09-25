@@ -1,0 +1,22 @@
+{
+  "name": "stdin.js",
+  "version": "1.0.0",
+  "description": "stdin",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aceunlonely/stdin.js.git"
+  },
+  "keywords": [
+    "stdin"
+  ],
+  "author": "apporoad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aceunlonely/stdin.js/issues"
+  },
+  "homepage": "https://github.com/aceunlonely/stdin.js#readme"
+}

@@ -24,7 +24,7 @@ var readLine =function(){
         //console.log(2)
         dataFuntion =  (data) => {
             //console.log(3)
-            resolve(data)
+            resolve(data.slice(0,-2))
             end()
           }
         process.stdin.on('data', dataFuntion);

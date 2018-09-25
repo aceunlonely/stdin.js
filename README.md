@@ -8,7 +8,7 @@ npm i stdin.js
 
 # how to use
 ```javascript
-var stdin = require('.')
+var stdin = require('stdin.js')
 
 stdin.readLine().then(data=>{ stdin.writeLine(data)})
 

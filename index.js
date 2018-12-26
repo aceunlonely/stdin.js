@@ -1,3 +1,11 @@
+const os = require('os')
+
+var trimEndNumber = -1
+if(os.platform() == 'win32'){
+    //if windows 
+    trimEndNumber = -2
+}
+
 global.stdinRunCount =0;
 
 
@@ -24,7 +32,7 @@ var readLine =function(){
         //console.log(2)
         dataFuntion =  (data) => {
             //console.log(3)
-            resolve(data.slice(0,-2))
+            resolve(data.slice(0,trimEndNumber))
             end()
           }
         process.stdin.on('data', dataFuntion);
